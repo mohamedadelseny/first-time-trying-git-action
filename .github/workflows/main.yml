@@ -19,3 +19,8 @@ jobs:
         run: pwd
       - name: 'Testing Printing'
         run: echo Mohamed
+
+      - name:  "Login to Docker hub"
+      
+        run:  docker login --username mohamedadel22 --password dckr_pat_UZ-iKF31FetzacKwxeQcbIWshBw
+
